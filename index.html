@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind css link -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Tailwind Conceptual 1</title>
 </head>
 <body>
+
+<!-- header section starts here -->
+
+    <header>
+
+        <!-- navbar section -->
+
+        <nav class="bg-[#0e1133] py-5">
+
+            <div class="container flex justify-between items-center px-8 md:px-20 lg:px-32 mx-auto text-white">
+                <div class="flex items-center space-x-10">
+                    <div>
+                        <img src="assets/logo-3.png" alt="">
+                    </div>
     
+                    <div class="font-medium space-x-5 hidden lg:flex">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Service</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+    
+                <div class="space-x-4 hidden lg:flex">
+                    <button class="font-medium">Login</button>
+                    <button class="font-medium bg-[#ef4444] px-4 py-2 rounded-md">Get Started</button>
+                </div>
+
+                <div class="lg:hidden">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- banner section -->
+
+        <section class="bg-[#12174e] relative">
+             <div class="container px-8 lg:px-32 py-12 md:py-18 lg:py-20 mx-auto text-white text-center space-y-6">
+                  <h1 class="text-3xl lg:text-5xl font-bold">Creative way to <br> Showcase your <span class="text-[#ef4444]">App</span></h1>
+                  <p class="opacity-80 text-sm">Your app gets minimum attention and gets more and more downloads.</p>
+                  <div class="space-x-4 pb-5 lg:pb-24 md:pb-10">
+                      <button class="font-medium bg-[#ef4444] px-4 py-2 rounded-md">Get a Quote</button>
+                      <button><i class="fa-regular fa-circle-play"></i> Play Video</button>
+                  </div>
+             </div>
+
+             <div class="container px-8 lg:px-32 mx-auto absolute flex justify-center -bottom-12 md:-bottom-28 lg:-bottom-40">
+                 <img class="w-2/3" src="assets/hero-thumb-4.png" alt="">
+             </div>
+
+        </section>
+
+    </header>
+
+<!-- header section ends here -->
+
+<!-- main section starts here -->
+
+    <main>
+
+    </main>
+
+<!-- main section ends here -->
+
 </body>
 </html>
